@@ -1,1 +1,11 @@
+event_title = input("Enter event title: ")
+year = input("Enter year: ")
+month = input("Enter month: ")
+day = input("Enter day: ")
 
+print("\nOutput:")
+print(f"Event: {event_title}")
+print(f"Date: {month}/{day}/{year}")
+print(f"Year: {year}")
+print(f"Month: {month}")
+print(f"Day: {day}")
